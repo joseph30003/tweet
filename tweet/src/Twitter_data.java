@@ -19,8 +19,9 @@ public class Twitter_data {
 		String aTS = "P9r2di51xZ0zgPbRNciZOhT0oCThwPlK0VKd9PWcUmuuY";
 		String file_path="./BMW";
 		List<String> keyword = Lists.newArrayList("#BMW","@BMW","BMW");
-		Tweets_collection.run(cK, cS, aT, aTS,file_path,keyword,"BMW");
+		//Tweets_collection.run(cK, cS, aT, aTS,file_path,keyword,"BMW");
 		
-		
+		//Tweets_collection.Users_id (cK, cS, aT, aTS,"JustShutUpp",30);
+		Tweets_collection.tweets_id(cK, cS, aT, aTS, "667129988488028160");
 	}
 }
