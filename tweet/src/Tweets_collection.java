@@ -81,6 +81,37 @@ public class Tweets_collection {
 	    
 	}
 }
+	
+	public static void run(String consumerKey, String consumerSecret, String token, String secret,List<String> keyword) throws InterruptedException, IOException {
+	    BlockingQueue<String> queue = new LinkedBlockingQueue<String>(10000);
+	    StatusesFilterEndpoint endpoint = new StatusesFilterEndpoint();
+	    	    
+	    endpoint.trackTerms(keyword);
+	   
+	    Authentication auth = new OAuth1(consumerKey, consumerSecret, token, secret);
+	    
+	    Client client = new ClientBuilder()
+	            .hosts(Constants.STREAM_HOST)
+	            .endpoint(endpoint)
+	            .authentication(auth)
+	            .processor(new StringDelimitedProcessor(queue))
+	            .build();
+
+	    
+	    client.connect();
+
+	    
+	    while(true)
+	    {
+	      String msg = queue.take();
+	      System.out.println(msg);	      
+	    }
+
+	    //client.stop();
+
+	}	
+	
+	
 public static void Users_id(String CONSUMER_KEY,String CONSUMER_KEY_SECRET,String TWITTER_TOKEN,String TWITTER_TOKEN_SECRET,String userID,int page){ 
 		
 		

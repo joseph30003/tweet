@@ -80,5 +80,19 @@ public class Filer {
 			
 			
 		}
+		
+		public static void write_tofile(String line,String file) throws IOException {
+			// Construct BufferedReader from FileReader
+			//PrintWriter out = new PrintWriter(new FileWriter(log, true));
+			PrintWriter fw0 = new PrintWriter(new FileWriter(file,true));
+			
+			
+		
+			fw0.close();
+				
+			
+			
+		}
+		
 	
 }
