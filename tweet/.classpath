@@ -12,11 +12,19 @@
 	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/hbc-hbc-2.2.0/hbc-hbc-2.2.0/target/dependency/mockito-all-1.8.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/hbc-hbc-2.2.0/hbc-hbc-2.2.0/hbc-core/target/hbc-core-2.2.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/hbc-hbc-2.2.0/hbc-hbc-2.2.0/hbc-twitter4j/target/hbc-twitter4j-2.2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/json-path-2.0.0-with-dependencies/lib/asm-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/json-path-2.0.0-with-dependencies/lib/personality-insights-twitter-java-master.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/json-path-2.0.0-with-dependencies/lib/asm-3.3.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/json-path-2.0.0-with-dependencies/lib/json-path-2.0.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/json-path-2.0.0-with-dependencies/lib/json-smart-2.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/json-path-2.0.0-with-dependencies/lib/slf4j-api-1.7.10.jar"/>
 	<classpathentry kind="lib" path="guava-18.0.jar"/>
+	<classpathentry kind="lib" path="httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="junit-4.8.1.jar"/>
+	<classpathentry kind="lib" path="mockito-all-1.8.5.jar"/>
+	<classpathentry kind="lib" path="httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="joauth-6.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/gson-2.2.2.jar/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xf37538/Downloads/java-wrapper-1.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_60"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
