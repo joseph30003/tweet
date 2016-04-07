@@ -19,10 +19,12 @@ public class Twitter_data {
 		String aT = "2980890963-hADyI32sy8wnNGsdrpJnxy3wX2kTC0srhnhkjqx";
 		String aTS = "P9r2di51xZ0zgPbRNciZOhT0oCThwPlK0VKd9PWcUmuuY";
 		String file_path="./BMW";
-		List<String> keyword = Lists.newArrayList("#BMW","@BMW","BMW");
+		//List<String> keyword = Lists.newArrayList("#BMW","@BMW","BMW");
 		//Tweets_collection.run(cK, cS, aT, aTS,keyword);
 		
-		Tweets_collection.Users_id (cK, cS, aT, aTS,"JustShutUpp",30);
+		for(int i=1;i<=100;i++){
+			Tweets_collection.Users_id (cK, cS, aT, aTS,"realDonaldTrump",i,200);
+		}
 		//Tweets_collection.tweets_id(cK, cS, aT, aTS, "667129988488028160");
 	}
 }

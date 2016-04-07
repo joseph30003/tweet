@@ -113,7 +113,7 @@ public class Tweets_collection {
 	}	
 	
 	
-public static void Users_id(String CONSUMER_KEY,String CONSUMER_KEY_SECRET,String TWITTER_TOKEN,String TWITTER_TOKEN_SECRET,String userID,int page){ 
+public static void Users_id(String CONSUMER_KEY,String CONSUMER_KEY_SECRET,String TWITTER_TOKEN,String TWITTER_TOKEN_SECRET,String userID,int page, int count){ 
 		
 		
 		final Twitter twitter = new TwitterFactory().getInstance();
@@ -130,7 +130,7 @@ public static void Users_id(String CONSUMER_KEY,String CONSUMER_KEY_SECRET,Strin
 
 	      try {
             
-	    	Paging paging = new Paging(1,page);
+	    	Paging paging = new Paging(page,count);
 	    	statuses = twitter.getUserTimeline(userID,paging);
 	        for(int i=0;i<statuses.size();i++){
 	        
